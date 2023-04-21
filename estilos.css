@@ -1,0 +1,126 @@
+body{
+    background: linear-gradient(to bottom, #adadada6 0%, #a0a0a0 50%, #696969 100%);
+}
+
+.padre{
+    display: flex;
+}
+
+.perfil{
+    width: 20%;
+    height: 100vh;
+    background-color: #d3d3d39a;
+    border: 5px solid black;
+    padding: 15px;
+    margin-left: auto;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 1%;
+    height: 100vh;
+    background-color: #d3d3d39a;
+    border: 5px solid black;
+    padding: 15px;
+    margin-right: auto;
+}
+
+.palmares::before{
+    content: "Tiene un programa en antena 3 (esto es el pseudo-elemento)";
+    font-weight: bold;
+}
+
+.conocimientos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.conocimientos i{
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 50px;
+    background-color: rgb(151, 101, 101);
+    margin-left: 5px;
+}
+
+.conocimientos i:hover{
+    background-color: rgb(44, 179, 73);
+}
+
+.img-perfil{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: 5%;
+    object-fit: cover;
+}
+
+p{
+    font-size: 19px;
+}
+
+.barra {
+    background-color: #d3d3d39a;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.progreso {
+    background-color: black;
+    color: white;
+    height: 100%;
+    margin-top:3px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out;
+}
+
+h1{
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 0;
+    color: rgb(1, 1, 107);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.fa-solid.fa-arrow-right{
+    margin-top:3px;
+}
+
+.fa-solid.fa-futbol{
+    margin-top:3px;
+}
+
+.fa-sharp.fa-solid.fa-trophy{
+    margin-top:3px;
+}
+
+
+
+
+
+
+
